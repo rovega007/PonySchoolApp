@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal_Alumno">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="372dp"
+        android:layout_height="142dp"
+        android:src="@mipmap/alu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="379dp"
+        android:layout_height="333dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="gravity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <Button
+            android:id="@+id/btnInsMat"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="Inscribirte a Materias"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnVerMaterias"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="Ver Materias"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnVerContenido"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="Ver Contenido"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnVerProgreso"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="Ver Progreso"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="178dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ima2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="316dp"
+        android:layout_height="37dp"
+        android:layout_margin="10dp"
+        android:text="Nombre Alumno"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Cerrar Sesion"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Agendar Tutoria"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/button15"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

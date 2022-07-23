@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal_Maestro">
+
+    <ImageView
+        android:id="@+id/encabezadoMaestro"
+        android:layout_width="372dp"
+        android:layout_height="142dp"
+        android:src="@mipmap/maestro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="176dp"
+        android:layout_height="152dp"
+        android:layout_margin="15dp"
+        android:src="@mipmap/ejem2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/encabezadoMaestro" />
+
+    <Button
+        android:id="@+id/buttonVideo"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Agregar Video"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/buttonEjercicio"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Agregar Ejercicio"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVideo" />
+
+    <Button
+        android:id="@+id/buttonExamen"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Agregar Examen"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEjercicio" />
+
+    <Button
+        android:id="@+id/buttonCerrarSesion"
+        android:layout_width="162dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Cerrar Sesion"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonExamen"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="152dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="60dp"
+        android:src="@mipmap/ima2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toEndOf="@+id/buttonCerrarSesion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

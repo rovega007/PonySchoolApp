@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="gravity"
+    tools:context=".EditarDatos_Padre">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="365dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ponyschool" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Editar Datos"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Edad"
+        android:inputType="textPersonName" />
+
+    <RadioButton
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="Masculino" />
+
+    <RadioButton
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Femenino" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Aceptar"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Regresar"
+        android:textColor="@color/black" />
+
+</LinearLayout>

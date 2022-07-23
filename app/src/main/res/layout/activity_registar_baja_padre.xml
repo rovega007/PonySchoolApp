@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="gravity"
+    tools:context=".RegistarBaja_Padre">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="365dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ponyschool" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Registrar Baja"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:text="Todas las cuentas de alumnos vinculadas a su cuenta tambien seran eliminadas. ¿Esta seguro?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Aceptar"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Regresar"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

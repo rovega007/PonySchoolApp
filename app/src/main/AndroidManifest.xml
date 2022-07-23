@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ponyschool">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PonySchool"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".VerMateriaContenidoEspecifico_Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".VerProgreso_Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".Contenido_Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".VerMaterias_Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".InscribirteMaterias_Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".VisualizarAgenda_Asesor"
+            android:exported="false" />
+        <activity
+            android:name=".RevisarProgreso_Asesor"
+            android:exported="false" />
+        <activity
+            android:name=".AddExamen_Maestro"
+            android:exported="false" />
+        <activity
+            android:name=".AddEjercicio_Maestro"
+            android:exported="false" />
+        <activity
+            android:name=".ddVideo_Maestro"
+            android:exported="false" />
+        <activity
+            android:name=".Principal_Asesor"
+            android:exported="false" />
+        <activity
+            android:name=".Principal_Maestro"
+            android:exported="false" />
+        <activity
+            android:name=".RegistarBaja_Padre"
+            android:exported="false" />
+        <activity
+            android:name=".EditarDatos_Padre"
+            android:exported="false" />
+        <activity
+            android:name=".VerProgreso_Padre"
+            android:exported="false" />
+        <activity
+            android:name=".Principal_Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".Registro_Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Principal_Padre"
+            android:exported="false" />
+        <activity
+            android:name=".Registro_Padre"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
